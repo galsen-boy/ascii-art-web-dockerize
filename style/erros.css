@@ -1,0 +1,40 @@
+body{
+  background: repeating-radial-gradient(gray, white,gray);
+  text-align: center;
+}
+
+.centered {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  margin-bottom: 50px;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 50px;
+  color: rgb(43, 42, 42);
+}
+button {
+  border-radius: 9px;
+  font-size: 27px;
+  background-color: black;;
+  color: white;
+  cursor: pointer;
+}
+a {
+  width: 7%;
+  padding: 8px;
+  overflow: hidden;
+  /* white-space: nowrap; */
+  text-overflow: ellipsis;
+  background-color: gray;
+  color: white;
+  cursor: pointer;
+  text-decoration: none;
+  color: black;
+  text-align: center;
+  border-radius: 3px;
+}

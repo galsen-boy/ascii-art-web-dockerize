@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet"  href="style/styles.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dockerize</title>
+</head>
+<body>
+  <header>
+    <nav class="navigation">
+      <h1>Dockerize</h1>
+      <ul class="menu">
+        <li><a href="http://localhost:8080/">Home</a></li>
+        <li><a href="https://learn.zone01dakar.sn/git/root/public/src/branch/master/subjects/ascii-art-web/stylize">About</a></li>
+      </ul>
+    </nav>
+  </header>
+  <br><br>
+  <div class="container">
+    <div class="right-block">
+      <div class="form-items">
+        <form  action="ascii-art" method="POST">
+          <textarea name="input" required placeholder="type something"></textarea>
+          <label for="select"><h2>Banner</h2></label>
+          <select name="banner">
+            <option value="standard">standard</option>
+            <option value="shadow">shadow</option>
+            <option value="thinkertoy">thinkertoy</option>
+          </select><br><br><br>
+          <div class="btn">
+          <button class="button" type="submit" value="submit">submit</button>&nbsp &nbsp<button class="button" type="reset" name="reset" value="Clear">Clear</button>
+        </div>
+        </form>
+      </div>
+    </div>
+    
+    <div class="left-block">
+      <h2>See the ouput here</h2>
+      <div class="result">
+    
+                   <pre>{{ . }}</pre>
+    
+             </div>
+    </div>
+
+  </div>
+
+</body>
+  <footer>
+    <p>Author: MOURIDE ZONE 01 COPYRIGHT<br>
+  </footer>
+</html>
